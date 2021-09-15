@@ -276,11 +276,11 @@ a:focus {
 }
 
 .custom-navbar .navbar-brand {
-  background: url("../images/social_youtube.svg") no-repeat;
+  background: url("../images/My signature-01.svg") no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  width: 100%;
-  height: 100%;
+  width: 100px;
+  height: 100px;
   padding: 30px;
 }
 
@@ -377,7 +377,8 @@ a:focus {
 -----------------------------------------*/
 
 #about .about-img {
-  background: url("../images/me.jpg") no-repeat;
+  background: url("../images/57303635_136089474171317_8640063006804993694_n.jpg")
+    no-repeat;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -514,6 +515,7 @@ a:focus {
 
 #contact {
   background: #e9724c;
+  max-height: 600px;
 }
 
 #contact .contact-form,
@@ -523,7 +525,8 @@ a:focus {
 }
 
 #contact .contact-img {
-  background: url("../images/IMG_5050.JPG") no-repeat;
+  background: url("../images/58113806_590449494798402_5936962939202290526_n.jpg")
+    no-repeat;
   min-height: 75vh;
 }
 
