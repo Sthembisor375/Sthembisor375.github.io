@@ -1,34 +1,27 @@
 body {
-  background: #ffffff;
-  font-family: "Source Sans Pro", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  overflow-x: hidden;
+	background: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+	font-weight: 300;
+    overflow-x: hidden;
 }
 
-html,
-body {
+html,body {
   width: 100%;
   height: 100%;
 }
+
 
 /*---------------------------------------
     Typography              
 -----------------------------------------*/
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
   font-style: normal;
   font-weight: 300;
 }
 
-h1,
-h2,
-h3 {
+h1,h2,h3 {
   font-weight: 300;
 }
 
@@ -64,23 +57,23 @@ h5 {
 }
 
 strong {
-  color: #232b2b;
+  color: #232B2B;
   font-weight: normal;
 }
 
 p {
-  color: #888;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 28px;
-  letter-spacing: 0.2px;
+    color: #888;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.2px;
 }
 
 .section-btn {
   background-color: transparent;
-  border: 3px solid #232b2b;
+  border: 3px solid #232B2B;
   border-radius: 100px;
-  color: #232b2b;
+  color: #232B2B;
   font-size: 13px;
   font-weight: bold;
   letter-spacing: 1.6px;
@@ -91,7 +84,7 @@ p {
 }
 
 .section-btn:hover {
-  background: #e3ae57;
+  background: #000000;
   border-color: transparent;
   color: #ffffff;
 }
@@ -120,7 +113,7 @@ p {
 }
 
 #home .container,
-#about .container,
+#about .container, 
 #experience .container,
 #service .container,
 #education .container,
@@ -131,7 +124,7 @@ p {
 }
 
 #experience .experience-thumb,
-#education .education-thumb {
+#education .education-thumb  {
   padding: 22px 42px 42px 42px;
 }
 
@@ -143,32 +136,40 @@ footer {
 
 #experience,
 #education {
-  background: #e9724c;
+  background: #6D6E72;
 }
 
 .background-image {
-  background-position: 50% 50% !important;
-  background-size: cover !important;
-  width: 100%;
-  height: 100%;
-  min-height: 75vh;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+    background-position: 50% 50% !important;
+    background-size: cover !important;
+    width: 100%;
+    height: 100%;
+    min-height: 75vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
+
+/*---------------------------------------
+    Colours               
+-----------------------------------------*/
 
 .color-white {
   color: #ffffff;
 }
 
 .color-yellow {
-  color: #e3ae57;
+  color: #E3AE57;
+}
+
+.color-grey {
+  color: #D1D3D4;
 }
 
 .bg-yellow {
-  background: #e3ae57;
+  background: #E3AE57;
 }
 
 .bg-white {
@@ -176,28 +177,40 @@ footer {
 }
 
 .bg-dark {
-  background: #161616;
+  background: #58585A;
 }
+
+.bg_dark2 {
+  background: #58585A;
+}
+
+.bg-grey-2 {
+  background: #BCBEC0;
+}
+
+.bg-grey-3 {
+  background: #909090;
+}
+
+
 
 /*---------------------------------------
     General               
 -----------------------------------------*/
 
-html {
+html{
   -webkit-font-smoothing: antialiased;
 }
 
 a {
-  color: #e3ae57;
+  color: #BCBEC0;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
 }
-a:hover,
-a:active,
-a:focus {
-  color: #e3ae57;
+a:hover, a:active, a:focus {
+  color: #D0D2D4;
   outline: none;
 }
 
@@ -213,6 +226,8 @@ a:focus {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+
 
 /*---------------------------------------
     Preloader section              
@@ -239,7 +254,7 @@ a:focus {
 }
 
 .spinner:before {
-  content: "";
+  content: '';
   box-sizing: border-box;
   position: absolute;
   top: 50%;
@@ -249,30 +264,28 @@ a:focus {
   margin-top: -10px;
   margin-left: -10px;
   border-radius: 50%;
-  border: 2px solid #e3ae57;
+  border: 2px solid #E3AE57;
   border-top-color: #f9f9f9;
-  animation: spinner 0.6s linear infinite;
+  animation: spinner .6s linear infinite;
 }
 
 @-webkit-@keyframes spinner {
-  to {
-    transform: rotate(360deg);
-  }
+  to {transform: rotate(360deg);}
 }
 
 @keyframes spinner {
-  to {
-    transform: rotate(360deg);
-  }
+  to {transform: rotate(360deg);}
 }
+
+
 
 /*---------------------------------------
     Navigation section              
 -----------------------------------------*/
 
 .custom-navbar {
-  margin-bottom: 0;
-  background-color: #ffffff;
+    margin-bottom: 0;
+    background-color: #ffffff;
 }
 
 .custom-navbar .navbar-brand {
@@ -285,18 +298,18 @@ a:focus {
 }
 
 .custom-navbar .nav li a {
-  color: #666;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  line-height: 40px;
-  transition: all 0.4s ease-in-out;
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 40px;
+    transition: all 0.4s ease-in-out;
 }
 
 .custom-navbar .nav li a:hover {
-  background: transparent;
-  color: #e3ae57;
+    background: transparent;
+    color: #D1D3D4;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -305,36 +318,39 @@ a:focus {
 }
 
 .custom-navbar .nav li.active > a {
-  background-color: transparent;
-  color: #e3ae57;
+    background-color: transparent;
+    color: #D1D3D4;
 }
 
 .custom-navbar .navbar-toggle {
-  border: none;
-  padding-top: 10px;
+    border: none;
+    padding-top: 10px;
 }
 
 .custom-navbar .navbar-toggle {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
-  background: #e3ae57;
-  border-color: transparent;
+    background: #E3AE57;
+    border-color: transparent;
 }
 
-@media (min-width: 768px) {
-  .custom-navbar {
-    padding: 12px 0;
-    border-bottom: 0;
-    background: 0 0;
-  }
-  .custom-navbar.top-nav-collapse {
-    background: #ffffff;
-    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
-    padding: 0;
-  }
+@media(min-width:768px) {
+    .custom-navbar {
+        padding: 12px 0;
+        border-bottom: 0;
+        background: 0 0; 
+    }
+    .custom-navbar.top-nav-collapse {
+        background: #ffffff;
+        box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+        padding: 0;
+    }
+
 }
+
+
 
 /*---------------------------------------
     Home section              
@@ -345,14 +361,14 @@ a:focus {
 }
 
 #home .col-md-6 {
-  background: #f1e2d7;
-  /* light blue color: #c3eafd; */
+  background: #F4F3F5;
+/* light blue color: #c3eafd; */
   padding-right: 0;
   padding-left: 0;
 }
 
 #home .home-img {
-  background: url("../images/IMG_5049.JPG") no-repeat;
+  background: url('../images/IMG_5049.JPG') no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   width: 100%;
@@ -372,16 +388,14 @@ a:focus {
   padding: 0 45px 0 45px;
 }
 
+
+
 /*---------------------------------------
    About section              
 -----------------------------------------*/
 
 #about .about-img {
-  background: url("../images/57303635_136089474171317_8640063006804993694_n.jpg")
-    no-repeat;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    background: url('../images/57303635_136089474171317_8640063006804993694_n.jpg') no-repeat;
 }
 
 #about .about-thumb,
@@ -397,7 +411,7 @@ a:focus {
 }
 
 #about .progress-bar-primary {
-  background: #232b2b;
+  background: #232B2B;
 }
 
 #about strong,
@@ -407,12 +421,14 @@ a:focus {
   padding-bottom: 8px;
 }
 
+
+
 /*---------------------------------------
     Service section              
 -----------------------------------------*/
 
 #service {
-  background: #e9724c;
+  background: #909090;
 }
 
 #service p {
@@ -429,12 +445,14 @@ a:focus {
   padding-bottom: 22px;
 }
 
+
+
 /*---------------------------------------
     Experience section              
 -----------------------------------------*/
 
 #experience .experience-img {
-  background: url("../images/experience-img.jpg") no-repeat;
+  background: url('../images/office-865091.jpg') no-repeat;
 }
 
 #experience .media-heading {
@@ -447,7 +465,7 @@ a:focus {
 }
 
 #experience small {
-  color: #633;
+  color: #A7A9AC;
   font-weight: bold;
 }
 
@@ -456,11 +474,11 @@ a:focus {
 -----------------------------------------*/
 
 #education {
-  background: #e3ae57;
+  background: #A7A9AC;
 }
 
 #education .education-img {
-  background: url("../images/education-img.jpg") no-repeat;
+  background: url('../images/pexels-content-pixie-4103437.jpg') no-repeat;
 }
 
 #education .media-heading {
@@ -473,30 +491,32 @@ a:focus {
 }
 
 #education small {
-  color: #886d1e;
+  color: #58585A;
   font-weight: bold;
 }
+
+
 
 /*---------------------------------------
    Quotes section              
 -----------------------------------------*/
 
 #quotes {
-  background: url("../images/quotes-bg.jpg") 50% 0 repeat-y fixed;
-  background-size: cover;
-  background-position: center center;
-  color: #ffffff;
-  position: relative;
-  padding: 100px 0px;
+    background: url('../images/computer-768696.jpg') 50% 0 repeat-y fixed;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    position: relative;
+    padding: 100px 0px;
 }
 
 #quotes .overlay {
-  background: #121212;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  opacity: 0.7;
+    background: #121212;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.7;
 }
 
 #quotes .fa {
@@ -509,13 +529,13 @@ a:focus {
   padding-top: 32px;
 }
 
+
 /*---------------------------------------
     Contact section              
 -----------------------------------------*/
 
 #contact {
-  background: #e9724c;
-  max-height: 600px;
+  background: #6D6E72;
 }
 
 #contact .contact-form,
@@ -525,8 +545,7 @@ a:focus {
 }
 
 #contact .contact-img {
-  background: url("../images/58113806_590449494798402_5936962939202290526_n.jpg")
-    no-repeat;
+  background: url('../images/58113806_590449494798402_5936962939202290526_n.jpg') no-repeat;
   min-height: 75vh;
 }
 
@@ -535,21 +554,14 @@ a:focus {
   padding-bottom: 6px;
 }
 
-#contact .form-control::-moz-placeholder {
-  color: #ffffff;
-  opacity: 1;
-}
-#contact .form-control:-ms-input-placeholder {
-  color: #ffffff;
-}
-#contact .form-control::-webkit-input-placeholder {
-  color: #ffffff;
-}
+#contact .form-control::-moz-placeholder{color:#ffffff;opacity:1}
+#contact .form-control:-ms-input-placeholder{color:#ffffff}
+#contact .form-control::-webkit-input-placeholder{color:#ffffff}
 
 #contact .form-control {
   background: transparent;
   border: none;
-  border-bottom: 1px solid #e3ae57;
+  border-bottom: 1px solid #A7A9AC;
   border-radius: 0px;
   box-shadow: none;
   color: #ffffff;
@@ -585,53 +597,59 @@ a:focus {
   padding-right: 10px;
 }
 
+
+
 /*---------------------------------------
    Footer section              
 -----------------------------------------*/
 
 footer {
-  padding: 50px 0px;
+    padding: 50px 0px;
 }
+
+
 
 /*---------------------------------------
    Social icon             
 -----------------------------------------*/
 
 .social-icon {
-  position: relative;
-  padding: 0;
-  margin: 0;
-  text-align: left;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
 .social-icon li {
-  display: inline-block;
-  list-style: none;
+    display: inline-block;
+    list-style: none;
 }
 
 .social-icon li a {
-  border: 0px solid transparent;
-  color: #999;
-  border-radius: 100px;
-  cursor: pointer;
-  font-size: 20px;
-  text-decoration: none;
-  transition: all 0.4s ease-in-out;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  vertical-align: middle;
-  position: relative;
-  margin: 22px 4px 10px 4px;
+    border: 2px solid transparent;
+    color: #999;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 22px 4px 10px 4px;
 }
 
 .social-icon li a:hover {
-  background: #e3ae57;
-  border-color: #ffffff;
-  color: #ffffff;
-  transform: scale(1.1);
+    background: #E3AE57;
+    border-color: #ffffff;
+    color: #ffffff;
+    transform: scale(1.1);
 }
+
+
 
 /*---------------------------------------
    Mobile Responsive         
@@ -674,7 +692,7 @@ footer {
   }
 
   #home .container,
-  #about .container,
+  #about .container, 
   #experience .container,
   #service .container,
   #education .container,
@@ -703,6 +721,6 @@ footer {
   }
 
   footer {
-    padding: 10px 0;
+    padding: 40px 0;
   }
 }
