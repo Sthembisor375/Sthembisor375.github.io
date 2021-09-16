@@ -164,8 +164,12 @@ footer {
   color: #E3AE57;
 }
 
-.color-grey {
-  color: #D1D3D4;
+.color-grey-brown {
+  color: #B2AAA1;
+}
+
+.color-brown {
+  color: #685D52;
 }
 
 .bg-yellow {
@@ -181,7 +185,7 @@ footer {
 }
 
 .bg_dark2 {
-  background: #58585A;
+  background: #C0A48F;
 }
 
 .bg-grey-2 {
@@ -190,6 +194,10 @@ footer {
 
 .bg-grey-3 {
   background: #909090;
+}
+
+.bg-subtle-brown {
+  background: #CBC1B4;
 }
 
 
@@ -264,7 +272,7 @@ a:hover, a:active, a:focus {
   margin-top: -10px;
   margin-left: -10px;
   border-radius: 50%;
-  border: 2px solid #E3AE57;
+  border: 2px solid #000;
   border-top-color: #f9f9f9;
   animation: spinner .6s linear infinite;
 }
@@ -298,7 +306,7 @@ a:hover, a:active, a:focus {
 }
 
 .custom-navbar .nav li a {
-    color: #666;
+    color: #BCBEC0;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -309,7 +317,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #D1D3D4;
+    color: #000;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -319,7 +327,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #D1D3D4;
+    color: #000;
 }
 
 .custom-navbar .navbar-toggle {
@@ -474,7 +482,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #education {
-  background: #A7A9AC;
+  background: #A5998B;
 }
 
 #education .education-img {
@@ -491,7 +499,7 @@ a:hover, a:active, a:focus {
 }
 
 #education small {
-  color: #58585A;
+  color: #685D52;
   font-weight: bold;
 }
 
@@ -643,8 +651,8 @@ footer {
 }
 
 .social-icon li a:hover {
-    background: #E3AE57;
-    border-color: #ffffff;
+    background: #000;
+    border-color: #000;
     color: #ffffff;
     transform: scale(1.1);
 }
