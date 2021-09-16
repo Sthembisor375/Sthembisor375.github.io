@@ -340,7 +340,7 @@ a:hover, a:active, a:focus {
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
-    background: #E3AE57;
+    background: #000;
     border-color: transparent;
 }
 
