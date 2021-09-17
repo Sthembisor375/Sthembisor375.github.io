@@ -301,7 +301,7 @@ a:hover, a:active, a:focus {
 }
 
 .custom-navbar .navbar-brand {
-  background: url("../images/My signature-01.svg") no-repeat;
+  background: url("../images/My-signature-01.svg") no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   width: 100px;
@@ -682,7 +682,7 @@ footer {
     line-height: inherit;
   }
   .custom-navbar .navbar-brand {
-    background: url("../images/My signature-01.svg") no-repeat;
+    background: url("../images/My-signature-01.svg") no-repeat;
     background-size: cover;
     background-position: 50% 50%;
     width: 60px;
