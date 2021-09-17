@@ -352,7 +352,7 @@ a:hover, a:active, a:focus {
     .custom-navbar {
         padding: 12px 0;
         border-bottom: 0;
-        background: 0 0; 
+        background: 1 0; 
     }
     .custom-navbar.top-nav-collapse {
         background: #ffffff;
@@ -380,9 +380,9 @@ a:hover, a:active, a:focus {
 }
 
 #home .home-img {
-  background: url('../images/IMG_5049.JPG') no-repeat;
+  background: url('../images/IMG-1413.JPG') no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 50% 0%;
   width: 100%;
   height: 100vh;
 }
@@ -557,7 +557,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact .contact-img {
-  background: url('../images/58113806_590449494798402_5936962939202290526_n.jpg') no-repeat;
+  background: url('../images/IMG_9137.JPG') no-repeat;
   min-height: 75vh;
 }
 
